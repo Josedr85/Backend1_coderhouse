@@ -1,0 +1,29 @@
+{
+  "name": "backend_notas",
+  "version": "1.0.0",
+  "description": "gestor de notas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josedr85/Backend1_coderhouse.git"
+  },
+  "keywords": [
+    "Backend",
+    "JavaScript",
+    "Aplicacion"
+  ],
+  "author": "Jose Requena",
+  "type": "module",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Josedr85/Backend1_coderhouse/issues"
+  },
+  "homepage": "https://github.com/Josedr85/Backend1_coderhouse#readme",
+  "dependencies": {
+    "bootstrap": "5.3.8",
+    "chalk": "5.6.2"
+  }
+}
