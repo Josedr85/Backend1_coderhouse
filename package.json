@@ -1,12 +1,12 @@
 {
-  "name": "backend_server",
+  "name": "backend_app",
   "version": "1.0.0",
   "description": "Primer servidor con Express",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -16,14 +16,17 @@
     "servidor"
   ],
   "author": "Jose Requena",
-  "type": "commonjs",
+  "type": "module",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Josedr85/Backend1_coderhouse/issues"
   },
   "homepage": "https://github.com/Josedr85/Backend1_coderhouse#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "bootstrap": "5.3.8",
+    "express-handlebars": "8.0.6",
+    "multer": "2.1.0"
   },
   "devDependencies": {
     "nodemon": "3.1.11"

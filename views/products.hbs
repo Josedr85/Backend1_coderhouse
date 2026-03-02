@@ -1,0 +1,17 @@
+{{!< main}}
+{{! extiende de main.hbs }}
+<section class="container">
+  <h2>¡Bienvenido!</h2>
+  {{#if msg}}
+    <p class="alert">{{msg}}</p>
+  {{/if}}
+  <h3>Productos</h3>
+  <ul>
+    <li>Monitor</li>
+    <li>Teclado</li>
+    <li>Mouse</li>
+  </ul>
+  <div class="container logo">
+    <img src="/static/img/jr.jpg" alt="Logo" />
+  </div>
+</section>
