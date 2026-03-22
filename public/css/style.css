@@ -32,7 +32,7 @@ nav a:hover {
 .container {
   flex: 1;
   margin: 2rem auto;
-  max-width: 600px;
+  max-width: 1200px;
   padding: 1.5rem;
   background: #fff;
   border-radius: 10px;
@@ -115,4 +115,27 @@ button:hover {
 
 .btn-volver:hover {
   background-color: #0ae6e6;
+}
+
+#messages {
+  list-style: none;
+  padding: 0;
+  max-width: 1200px;
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+#messages li {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }

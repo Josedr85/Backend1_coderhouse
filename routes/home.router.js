@@ -10,4 +10,7 @@ router.get("/productos", (req, res) => {
   res.render("products", { title: "Productos" });
 });
 
+router.get("/chat", (req, res) => {
+  res.render("chat", { title: "Chat" });
+});
 export default router;
