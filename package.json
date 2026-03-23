@@ -24,11 +24,7 @@
   "homepage": "https://github.com/Josedr85/Backend1_coderhouse#readme",
   "dependencies": {
     "express": "^5.2.1",
-    "bootstrap": "5.3.8",
-    "express-handlebars": "8.0.6",
-    "multer": "2.1.0",
-    "socket.io": "4.8.3",
-    "sweetalert2": "11.26.24"
+    "mongoose": "9.3.1"
   },
   "devDependencies": {
     "nodemon": "3.1.11"
