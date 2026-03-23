@@ -1,1 +1,0 @@
-mongodb+srv://joserequena85jr_db_user:tr0DlJ1nQYYLiUdr@backend-coderhouse.wgbpkli.mongodb.net/
