@@ -2,6 +2,7 @@ import express from "express";
 
 import homeRouter from "./routes/home.router.js";
 import userRouter from "./routes/user.router.js";
+import cursoRouter from "./routes/courses.router.js";
 
 import { connectMongoDB } from "./config/db/connect.config.js";
 
@@ -11,13 +12,14 @@ app.use(express.json());
 
 app.use("/", homeRouter);
 app.use("/user", userRouter);
+app.use("/curso", cursoRouter);
 
 app.use((req, res) => {
   res.status(404).json({ title: "404 - Página no encontrada!" });
 });
 
 const startServer = async () => {
-  await connectMongoDB();
+  await connectMongoDB("atlas");
   app.listen(PORT, () =>
     console.log(`Servidor escuchando en http://localhost:${PORT}`),
   );

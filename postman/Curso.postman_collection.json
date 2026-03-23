@@ -1,0 +1,147 @@
+{
+  "info": {
+    "_postman_id": "229b52e7-c960-4402-9697-ac5800aa4681",
+    "name": "Curso",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52043912",
+    "_collection_link": "https://go.postman.co/collection/52043912-229b52e7-c960-4402-9697-ac5800aa4681?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Get  all Cursos",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/curso",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "curso"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create Curso",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"Backend3\",\r\n    \"description\": \"Curso completo de backend con Node.js - Nivel 3\"\r\n    \r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/curso/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "curso",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Inscripcion al Curso",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/curso/69c0eb945fba592542a5a6c6/inscription/69c0da5da974d9665a253803",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "curso",
+            "69c0eb945fba592542a5a6c6",
+            "inscription",
+            "69c0da5da974d9665a253803"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Desincribir alumno del  Curso",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/curso/69c0e1c7f33cf18f518c9de7/desinscription/69c0da16a974d9665a253800",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "curso",
+            "69c0e1c7f33cf18f518c9de7",
+            "desinscription",
+            "69c0da16a974d9665a253800"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Eliminar un  Curso",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/curso/69c0e1c7f33cf18f518c9de7",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "curso",
+            "69c0e1c7f33cf18f518c9de7"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
